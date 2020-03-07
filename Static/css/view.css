@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:600|Inconsolata:700|Josefin+Sans:700|Montserrat|Open+Sans+Condensed:700|Source+Code+Pro:600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Fjalla One', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+.text-style1{
+  font-family: 'Montserrat', sans-serif;
+}
+.text-style2{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.text-style3{
+  font-family: 'Inconsolata', monospace;
+}
+.text-style4{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.text-style5{
+  font-family: 'Crimson Text', serif;
+}
+.text-style6{
+  font-family: 'Source Code Pro', monospace;
+}
+.bg-black{
+  background-color: black;
+}
+
+.desktop{
+  display: none;
+}
+.mobile{
+  display: none;
+}
+.tab{
+  display:none
+}
+.hov-ef:hover{
+  border-color: blue;
+  background-size: contain;
+}
+nav{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.green-back{
+  background-image: linear-gradient(to right,#75ff33,#33ff57,#33ffbd);
+}
+
+@media only screen and (max-width:599px) {
+  body{
+    overflow-x: hidden;
+  }
+  .mobile{
+    display:block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mobile{
+    display:block;
+  }
+
+  .tab{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+}
+@media only screen and (min-width: 900px){
+.tab{
+  display:block;
+
+}
+.desktop{
+  display: none;
+}
+.mobile{
+  display:none;
+}
+}
+@media only screen and (min-width: 1700px) {
+  .desktop{
+    display:block;
+  }
+  .tab{
+    display: none;
+  }
+}
